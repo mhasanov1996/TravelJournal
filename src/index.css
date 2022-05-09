@@ -57,11 +57,15 @@ section {
   /* flex-flow: row; */
 }
 
+.travelPoint--imgdiv {
+  margin-right: 19px;
+}
 .travelPoint--img {
   width: 125px;
   height: 168px;
+  margin: 0;
+  padding: 0;
   border-radius: 5px;
-  margin-right: 19px;
   object-fit: cover;
 }
 

@@ -13,7 +13,10 @@ export default function Content({
   return (
     <div>
       <section className="travelPoint">
-        <img className="travelPoint--img" src={imageUrl} alt="" />
+        <div className="travelPoint--imgdiv">
+          <img className="travelPoint--img" src={imageUrl} alt="" />
+        </div>
+
         <div className="travelPoint--info">
           <div className="travelPoint--location">
             <p>
